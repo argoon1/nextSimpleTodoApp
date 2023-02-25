@@ -1,0 +1,31 @@
+.note {
+  color: black;
+  background-color: rgba(115, 115, 115, 0.1);
+  border: 3px solid rgb(0, 255, 0);
+  width: 200px;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  text-align: center;
+  text-decoration: none !important;
+  transition: all 0.2s;
+  box-shadow: 0px 0px 0px 0px blue;
+}
+.note a {
+  text-decoration: none;
+}
+.note:hover {
+  transform: scale(1.05) rotate(-2deg);
+  background-color: rgba(171, 25, 25, 0.1);
+  font-size: 1.3rem;
+  box-shadow: 2px 2px 2px 2px blue;
+  cursor: pointer;
+}
+.notesContainer {
+  display: flex;
+  gap: 30px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
